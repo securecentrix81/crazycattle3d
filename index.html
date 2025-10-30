@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+	<script>
+    if (!localStorage.getItem("userIsValidated")) {
+      window.location.replace("/")
+    }
+  </script>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
